@@ -1,0 +1,20 @@
+{
+  "name": "spotify-watch",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Run functions based on Spotify events",
+  "main": "dist/main.js",
+  "scripts": {
+    "main": "node dist/main.js",
+    "build": "tsc -p tsconfig.json",
+    "dev": "npm run build && npm run main"
+  },
+  "author": "git@shreve.io",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^17.0",
+    "open": "^8.4.0",
+    "sleep-promise": "^9.1.0",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
